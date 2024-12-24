@@ -165,6 +165,67 @@
 
         .grid {
           grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+
+        .memory-container {
+          flex-direction: column;
+          align-items: center;
+          gap: 1.5rem;
+        }
+
+        .memory-item {
+          width: 90%;
+          margin: 0 auto;
+        }
+
+        .memory-image {
+          width: 100%;
+          height: auto;
+          max-height: 250px;
+        }
+
+        .card {
+          padding: 1.5rem;
+        }
+
+        .intro {
+          font-size: 1rem;
+          padding: 0 1rem;
+        }
+
+        .btn {
+          padding: 0.8rem 1.5rem;
+          font-size: 1rem;
+        }
+
+        .flower-garden {
+          bottom: 10px;
+          left: 10px;
+        }
+
+        .flower-btn {
+          width: 50px;
+          height: 50px;
+          font-size: 1.2rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        .card h2 {
+          font-size: 1.3rem;
+        }
+
+        .card p {
+          font-size: 0.95rem;
+        }
+
+        .memory-item p {
+          font-size: 1rem;
         }
       }
       .memory-item {
@@ -279,7 +340,7 @@
       </div>
 
       <div class="memories">
-        <h2>Special Moments</h2>
+        <h2 style="text-align: center; margin-bottom: 2rem;">Special Moments</h2>
         <div class="memory-container">
           <div class="memory-item">
             <img
